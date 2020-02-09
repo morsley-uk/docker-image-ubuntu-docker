@@ -1,21 +1,17 @@
 # A Docker image based on Ubuntu with Docker installed
 
-Utilities:
-
-- Tree
-
 ```
-docker build --tag ubuntu-with-docker .
+docker build --tag johnmorsley/ubuntu-with-docker .
 ```
 
 ```
-docker run --it ubuntu-with-docker ./bin/sh
+docker run -it ubuntu-with-docker /bin/bash
 ```
 
 or 
 
 ```
-winpty docker run --it ubuntu-with-docker ./bin/sh
+winpty docker run -it ubuntu-with-docker ./bin/bash
 ```
 
 ## Push image to Docker Hub
