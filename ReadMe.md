@@ -5,13 +5,13 @@ docker build --tag johnmorsley/ubuntu-with-docker .
 ```
 
 ```
-docker run -it ubuntu-with-docker /bin/bash
+docker run -it ubuntu-with-docker bash
 ```
 
 or 
 
 ```
-winpty docker run -it ubuntu-with-docker ./bin/bash
+winpty docker run -it ubuntu-with-docker bash
 ```
 
 ## Push image to Docker Hub
